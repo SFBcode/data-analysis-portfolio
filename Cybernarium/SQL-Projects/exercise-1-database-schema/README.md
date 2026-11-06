@@ -12,8 +12,8 @@ The SQL files were imported into the database.
 The following diagram illustrates the
 relationships between the tables.
 
-![Database Tables](images/Tables)
-![Database Tables](images/Columns)
+![Database Tables](images/tables.png)
+![Database Tables](images/columns.png)
 
 ## 4. Table Descriptions
 
