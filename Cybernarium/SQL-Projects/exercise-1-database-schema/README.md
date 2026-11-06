@@ -16,14 +16,14 @@ The database contains information about companies and their financial transactio
 
 Database has the following structure:
 
-![Database Tables](tables.png)
+![Database Tables](Images/tables.png)
 
 ## 4. Table Descriptions
 
 The company table stores descriptive information about companies.
 The transaction table stores information about financial transactions.
 
-![Database Columns](columns.png)
+![Database Columns](Images/columns.png)
 
 ## 5. Variable Descriptions
 
@@ -52,7 +52,7 @@ The expected relationship is one-to-many (1:N):
 - One company can have multiple transactions.
 - Each transaction is associated with a company.
 
-![Foreign Key - company_id](transaction-PrimaryKey.png)
+![Foreign Key - company_id](Images/transaction-PrimaryKey.png)
 
 ## 7. Schema Diagram
 
