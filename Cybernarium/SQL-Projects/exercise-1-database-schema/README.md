@@ -5,27 +5,52 @@ and relationships between two tables.
 
 ## 2. Data Importation
 
-The SQL files were imported into the database.
+The database contains two tables:
+- company
+- transaction
+Both tables use the InnoDB storage engine and the utf8mb4 character set for text fields.
+
+The database contains information about companies and their financial transactions.
 
 ## 3. Database Schema
 
-The following diagram illustrates the
-relationships between the tables.
+Database has the following structure:
 
 ![Database Tables](tables.png)
-![Database Columns](columns.png)
 
 ## 4. Table Descriptions
 
-Description of the tables...
+The company table stores descriptive information about companies.
+The transaction table stores information about financial transactions.
+
+![Database Columns](columns.png)
 
 ## 5. Variable Descriptions
 
-Description of the variables...
+Variables are the individual columns inside each table.
+
+There are two main categories:
+
+Company variables:
+- Identification: id
+- Company information: company_name, phone, email, country, website
+Transaction variables:
+- Identification: id, credit_card_id, company_id, user_id
+- Location: lat, longitude
+- Time: timestamp
+- Financial information: amount
+- Transaction status: declined
 
 ## 6. Relationships
 
-Explanation of primary and foreign keys...
+The most important relationship in your database is between:
+- company.id
+- transaction.company_id
+The company_id column identifies the company associated with each transaction.
+
+The expected relationship is one-to-many (1:N):
+- One company can have multiple transactions.
+- Each transaction is associated with a company.
 
 ## 7. Schema Diagram
 
