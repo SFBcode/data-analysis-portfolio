@@ -13,7 +13,7 @@ The following diagram illustrates the
 relationships between the tables.
 
 ![Database Tables](images/tables.png)
-![Database Tables](images/columns.png)
+![Database Columns](images/columns.png)
 
 ## 4. Table Descriptions
 
