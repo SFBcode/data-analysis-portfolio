@@ -52,6 +52,8 @@ The expected relationship is one-to-many (1:N):
 - One company can have multiple transactions.
 - Each transaction is associated with a company.
 
+![Foreign Key - company_id](transaction-PrimaryKey.png)
+
 ## 7. Schema Diagram
 
 See the diagram above.
