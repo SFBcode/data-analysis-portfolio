@@ -56,8 +56,16 @@ The expected relationship is one-to-many (1:N):
 
 ## 7. Schema Diagram
 
-See the diagram above.
+- `COMPANY` is the parent table.
+- `TRANSACTION` is the child table.
+- `company.id` identifies a company.
+- `transaction.company_id` identifies the company associated with a transaction.
+- One company can have zero, one, or many transactions.
 
 ## 8. Conclusion
 
-Summary of the database structure.
+The database consists of two tables, company and transaction, which contain complementary information.
+
+The company table stores information about companies, while the transaction table records financial transactions.
+
+The relationship between these tables is expected to be one-to-many, meaning that one company can have multiple associated transactions.
